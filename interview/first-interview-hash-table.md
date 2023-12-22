@@ -1,7 +1,10 @@
 ## Hash Table
 
 ### Hash Function
-- 해시 함수의 간단한 예시 
+- 임의의 길이를 갖는 데이터를 입력받아 고정된 길이의 해시값을 출력하는 함수 
+- 해시 함수의 간단한 예시: 나눗셈
+- 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
+- 
 ### Hashing
 - 임의의 길이의 값을 ***해시함수(Hash Function)*** 를 사용하여 고정된 크기의 값으로 변환하는 작업
 ### Hash Table
@@ -27,6 +30,6 @@
 - 해시 테이블 전체에 해시 값이 균등하게 분포
 - 사용할 키의 모든 정보를 이용하여 해싱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1OTg3ODY5LC0xMzM2MjUwMzYsLTE0MT
+eyJoaXN0b3J5IjpbNzUxNDg5MDM4LC0xMzM2MjUwMzYsLTE0MT
 c4ODkwMiwxOTQ4OTQ4NDc0XX0=
 -->
