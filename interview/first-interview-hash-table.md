@@ -17,7 +17,7 @@
 >> Effective Java 에서 조슈아 블로크씨가 말하길..
 >> *곱한 숫자를 31로 정한 이유는 31이 홀수이면서 소수이기 때문이다. 만약 이 숫자가 짝수이고 오버플로가 발생한다면 정보를 잃게된다, 소수를 곱한 것은 명확하진 않지만 **전통적으로** 그리 해왔다*...랍니다 
 
-> 구글은 해시 함수를 딥러닝으로 학습한 모델을 적용해 충돌을 최소화한 논문을 발표
+> 구글은 해시 함수를 딥러닝으로 학습한 모델을 적용해 충돌을 최소화한 논문을 발표 [enter link description here](https://arxiv.org/abs/1712.01208)
 > ![deep learning hash map structures](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bPcgwf/btrXi3LHmD9/c5TPn3nBZFfg31nxeONdTk/img.png)* 
 - 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
 - 눈사태 효과: 입력값의 일부가 변경되면 전혀 다른 값을 출력
@@ -61,8 +61,8 @@
 - 분리 연결법(*Separate Chaining*)
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzUzNzM5MDcsNTU5MDQxNTcxLDEwNz
-I0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5MDUsMTA4ODgxMTgy
-NiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MTc4ODkwMiwxOT
-Q4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbLTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNT
+U5MDQxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5
+MDUsMTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLT
+E0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
 -->
