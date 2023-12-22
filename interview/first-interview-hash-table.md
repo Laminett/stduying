@@ -7,6 +7,7 @@
   - Digit Folding: 각 key의 문자열을 ASCII 코드로 바꾸고 값을 합한 데이터를 테이블 내의 주소로 사용하는 방식
   - Multiplication Method: 숫자로 된 key값 k와 0과 1사이의 실수 A, 보통 2의 제곱수인 m을 사용하여 다음과 같은 계산을 하는 방식 `h(k) = (kA mod 1) * m`
   - Universal Hashing: 다수의 해시함수를 만들어 집합 H에 넣어두고, 무작위로 해시함수를 선택해 해시값을 만드는 방식
+> [https://steadyjay.tistory.com/18]
 > 조슈아 블로크는 여러 해시 함수 성능을 조사했고 31이란 숫자를 찾아냈다. 실제로 31은 메르센 소수로 수학적으로 나쁘지 않은 선택이라고 한다. 실제로 자바 JDK에 포함된 해시코드 일부에 31이 들어가있다. 
 > ``` java 
 > hashCode = 31 * hashCode + (e == null ? 0: e.hashCode());D
@@ -15,7 +16,8 @@
 > 참고로 lombok의 @EqualsAndHashCode는 59를 곱한다.
 >> Effective Java 에서 조슈아 블로크씨가 말하길..
 >> *곱한 숫자를 31로 정한 이유는 31이 홀수이면서 소수이기 때문이다. 만약 이 숫자가 짝수이고 오버플로가 발생한다면 정보를 잃게된다, 소수를 곱한 것은 명확하진 않지만 **전통적으로** 그리 해왔다*...랍니다 
-> ㄴㄴ
+
+> 구글은 해시 함![deep learning hash map structures](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bPcgwf/btrXi3LHmD9/c5TPn3nBZFfg31nxeONdTk/img.png)
 - 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
 - 눈사태 효과: 입력값의 일부가 변경되면 전혀 다른 값을 출력
 - 해시 충돌(*Hash Collision*): 입력 데이터의 길이가 어떻든 고정된 길이의 데이터를 출력하기 때문에 입력값이 다르더라도 같은 해시값이 발생하는 경우
@@ -58,7 +60,8 @@
 - 분리 연결법(*Separate Chaining*)
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDIzOTM2MiwxMDcyNDgxNTAzLDExMT
-cwOTQwNTksMjM2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NTg1ODg2
-NywtMTMzNjI1MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3NF19
+eyJoaXN0b3J5IjpbLTE2Mjk3NzI0MzAsMTA3MjQ4MTUwMywxMT
+E3MDk0MDU5LDIzNjM4NjkwNSwxMDg4ODExODI2LDE1ODU4NTg4
+NjcsLTEzMzYyNTAzNiwtMTQxNzg4OTAyLDE5NDg5NDg0NzRdfQ
+==
 -->
