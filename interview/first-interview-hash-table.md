@@ -65,7 +65,7 @@
 	- 해시 충돌이 일어 나더라도 설정된 자료 구조로 노드가 연결되기 때문에 index가 변하지 않고 데이터 개수의 제약이 없다는 장점이 있다.
 	- 하지만 데이터가 증가하면서 동일한 버킷에 연결된 노드 들이 많이지게 되면 그에 따라 캐시의 효율성이 감소한다.(검색 쏠림 현상) 
 	- 추가적인 메모리를 사용
-<p align="center"><img src="https://d3i71xaburhd42.cloudfront.net/25bbffa9f868a6ad7295241c6af500be64c0db85/4-Figure2-1.png" min-width="70%" height="300px"></p>
+<p align="center"><img src="https://velog.velcdn.com/images/ddaogi/post/1a16afd9-5245-4568-804a-52c9f6fe0bb2/image.png" min-width="70%" height="300px"></p>
 	> java 8에서는 Self-balancing Binary Search Tree 를 사용하여 연결 방식을 구현
 
 - 개방 주소법(*Open Addressing*)
@@ -153,11 +153,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Njk2NzIzMSwtMTE4MDU0ODAwLC00Nz
-A1OTk4MTAsODQyNDA0NjI0LDMyMzE0NTgxMiwtNzA1NDYwNzk5
-LDIzMDUyOTY2MSw2MzM3MTEzOTYsNzM1NjAyMjEyLDExODAxOT
-E4NjYsLTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNTU5MDQxNTcx
-LDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5MDUsMTA4OD
-gxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MTc4ODkw
-Ml19
+eyJoaXN0b3J5IjpbLTIwMDIyNzU0ODMsMTc5Njk2NzIzMSwtMT
+E4MDU0ODAwLC00NzA1OTk4MTAsODQyNDA0NjI0LDMyMzE0NTgx
+MiwtNzA1NDYwNzk5LDIzMDUyOTY2MSw2MzM3MTEzOTYsNzM1Nj
+AyMjEyLDExODAxOTE4NjYsLTE1NjYzNjc5MjcsLTEyNzUzNzM5
+MDcsNTU5MDQxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMz
+YzODY5MDUsMTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUw
+MzZdfQ==
 -->
