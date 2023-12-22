@@ -76,11 +76,13 @@
 		- 제곱 탐색(Quadratic Probing): 저장 순서 폭을 제곱으로 저장하는 방식 예를 들어 처음 충돌이 발생시 1만큼 이동하고 계속 충돌이 발생하면 2^2,  3^2 칸씩 이동하여 저장하는 방식
 		- 이중 해시(Double Hashing): 해시된 값을 한번 더 해싱하여 해시의 규칙성을 없애버리는 방식, 해시된 값을 한번더 해싱하기 때문에 다른 방법들보다 많은 연산을 함
 	- 추가적인 메모리를 사용하지 않고, 추가적인 작업 없이 해시테이블 내에 데이터 저장 및 처리가능
-	- 해시 함수
+	- 추가적인 메모리를 사용하지 않기 때문에 
+	- 해시 함수의 전체 버킷의 개수 이상을 저장할 수 없음
+	- 테이블 내에 빈 버킷을 찾아 해결하는 방식이기 때문에 모든 원소가 **반드시 자신의 해시값과 일치하는 주소에 저장된다는 보장이 없다**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Njg5MzUyNyw2MzM3MTEzOTYsNzM1Nj
-AyMjEyLDExODAxOTE4NjYsLTE1NjYzNjc5MjcsLTEyNzUzNzM5
-MDcsNTU5MDQxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMz
-YzODY5MDUsMTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUw
-MzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbMjQ3MzExMjM1LDYzMzcxMTM5Niw3MzU2MD
+IyMTIsMTE4MDE5MTg2NiwtMTU2NjM2NzkyNywtMTI3NTM3Mzkw
+Nyw1NTkwNDE1NzEsMTA3MjQ4MTUwMywxMTE3MDk0MDU5LDIzNj
+M4NjkwNSwxMDg4ODExODI2LDE1ODU4NTg4NjcsLTEzMzYyNTAz
+NiwtMTQxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
 -->
