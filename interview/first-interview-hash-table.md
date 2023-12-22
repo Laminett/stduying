@@ -8,7 +8,9 @@
 - 해시 충돌(*Hash Collision*): 입력 데이터의 길이가 어떻든 고정된 길이의 데이터를 출력하기 때문에 입력값이 다르더라도 같은 해시값이 발생하는 경우
 ![hash collision](https://miro.medium.com/max/1400/1*i5JV9RiF17ftnGDvuqVFSA.png)
 ### Hash collision
-- 적재율(*load factor*): 
+- 적재율(*load factor*): 해시 테이블의 크기에 대한 키의 개수의 비율 (키의 개수 `K`, 해시테이블의 크기 `N` => 적재율: `K/N`)
+- 해시 충돌이 1도 없는 해시 함수를 만드는 것은 불가능
+- 따라서 해시 테이블의 충돌은 완
 ### Hashing
 - 임의의 길이의 값을 ***해시함수(Hash Function)*** 를 사용하여 고정된 크기의 값으로 변환하는 작업
 ### Hash Table
@@ -34,6 +36,6 @@
 - 해시 테이블 전체에 해시 값이 균등하게 분포
 - 사용할 키의 모든 정보를 이용하여 해싱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTg3NjU2NywxNTg1ODU4ODY3LC0xMz
+eyJoaXN0b3J5IjpbLTYzNDc2OTAyNiwxNTg1ODU4ODY3LC0xMz
 M2MjUwMzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
 -->
