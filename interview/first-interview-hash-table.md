@@ -142,12 +142,12 @@
     return putVal(hash(key), key, value, false, true);  
 }
 ```
-해시테이블의 put은 해시맵의 put과 다르게 synchronized 키워드가 존재한다. 
+해시테이블의 put은 해시맵의 put과 다르게 synchronized 키워드가 존재한다. 이는 병령 프로그래밍시 동기화를 지원해준다는 것을 의미하는데.. 이는 해당 함수를 처리하는 시간이 지연됨을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMTQ1ODEyLC03MDU0NjA3OTksMjMwNT
-I5NjYxLDYzMzcxMTM5Niw3MzU2MDIyMTIsMTE4MDE5MTg2Niwt
-MTU2NjM2NzkyNywtMTI3NTM3MzkwNyw1NTkwNDE1NzEsMTA3Mj
-Q4MTUwMywxMTE3MDk0MDU5LDIzNjM4NjkwNSwxMDg4ODExODI2
-LDE1ODU4NTg4NjcsLTEzMzYyNTAzNiwtMTQxNzg4OTAyLDE5ND
-g5NDg0NzRdfQ==
+eyJoaXN0b3J5IjpbODQyNDA0NjI0LDMyMzE0NTgxMiwtNzA1ND
+YwNzk5LDIzMDUyOTY2MSw2MzM3MTEzOTYsNzM1NjAyMjEyLDEx
+ODAxOTE4NjYsLTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNTU5MD
+QxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5MDUs
+MTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MT
+c4ODkwMiwxOTQ4OTQ4NDc0XX0=
 -->
