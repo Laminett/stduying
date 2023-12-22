@@ -71,9 +71,12 @@
 
 - 개방 주소법(*Open Addressing*)
 	- 추가적인 메모리를 사용하는 분리연결법과는 다르게 비어있는 해시테이블의 버킷을 활용하는 방법
-	- 대표적인 방법: *[선형 탐색(Linear Probing), 제곱 탐색(Quadratic Prob), 이중 해시]*
+	- 대표적인 방법: *[선형 탐색, 제곱 탐색, 이중 해시]*
+		- 선형 탐색(Linear Probing):
+		- 제곱 탐색(Quadratic Probing):
+		- 이중 해시(Double Hashing):
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMzMyMDkyLDczNTYwMjIxMiwxMTgwMT
+eyJoaXN0b3J5IjpbNjMzNzExMzk2LDczNTYwMjIxMiwxMTgwMT
 kxODY2LC0xNTY2MzY3OTI3LC0xMjc1MzczOTA3LDU1OTA0MTU3
 MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMjM2Mzg2OTA1LDEwOD
 g4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5
