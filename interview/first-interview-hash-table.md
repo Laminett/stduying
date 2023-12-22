@@ -20,8 +20,9 @@
 ### 성능 좋은 해시 함수의 특징
 - 해시 함수 값 충돌 최소화
 - 쉽고 빠른 연산
-- 해시 테이블 전체에 해시 
+- 해시 테이블 전체에 해시 값이 균등하게 분포
+- 사용할 키의 모든 정보를 이용하여 해싱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzMDg2NzI4LC0xMzM2MjUwMzYsLTE0MT
-c4ODkwMiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbLTEyOTkzODg2NzQsLTEzMzYyNTAzNiwtMT
+QxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
 -->
