@@ -143,13 +143,14 @@
 }
 ```
 해시테이블의 put은 해시맵의 put과 다르게 synchronized 키워드가 존재한다. 이는 병령 프로그래밍시 동기화를 지원해준다는 것을 의미하는데.. 이는 해당 함수를 처리하는 시간이 지연됨을 의미한다.
-때문에 병렬처리를 하면서 자원의 동기화를 고려해야 하는 상황이라면 해시테이블을, 병렬처리를 하지 않고 동기화를 고려하지 않는 상황이라면 해시맵을 사용하면 된다..라고 많이들 나와있지만.. Hash Table은 쓰레드간 락을 걸어서 성능의 저하가 많이 발생할 수 있기 때문에.. HashMap의 동기화 문제를 해결하기 위해 나온 ConcurrentHashMap을 사용하는 편이 더 나아보인다. ConcurrentHAh
+때문에 병렬처리를 하면서 자원의 동기화를 고려해야 하는 상황이라면 해시테이블을, 병렬처리를 하지 않고 동기화를 고려하지 않는 상황이라면 해시맵을 사용하면 된다..라고 많이들 나와있지만.. Hash Table은 쓰레드간 락을 걸어서 성능의 저하가 많이 발생할 수 있기 때문에.. HashMap의 동기화 문제를 해결하기 위해 나온 ConcurrentHashMap을 사용하는 편이 더 나아보인다. ConcurrentHashMap은 Entry아이템 간 락을 걸기 때문에 Hash Table보다 데이터를 다루는 속도가 더 빠르다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mjc4MTYxNywtNDcwNTk5ODEwLDg0Mj
-QwNDYyNCwzMjMxNDU4MTIsLTcwNTQ2MDc5OSwyMzA1Mjk2NjEs
-NjMzNzExMzk2LDczNTYwMjIxMiwxMTgwMTkxODY2LC0xNTY2Mz
-Y3OTI3LC0xMjc1MzczOTA3LDU1OTA0MTU3MSwxMDcyNDgxNTAz
-LDExMTcwOTQwNTksMjM2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NT
-g1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3
-NF19
+eyJoaXN0b3J5IjpbOTExMTQ0NzU4LC00NzA1OTk4MTAsODQyND
+A0NjI0LDMyMzE0NTgxMiwtNzA1NDYwNzk5LDIzMDUyOTY2MSw2
+MzM3MTEzOTYsNzM1NjAyMjEyLDExODAxOTE4NjYsLTE1NjYzNj
+c5MjcsLTEyNzUzNzM5MDcsNTU5MDQxNTcxLDEwNzI0ODE1MDMs
+MTExNzA5NDA1OSwyMzYzODY5MDUsMTA4ODgxMTgyNiwxNTg1OD
+U4ODY3LC0xMzM2MjUwMzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0
+XX0=
 -->
