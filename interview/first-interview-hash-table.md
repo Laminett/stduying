@@ -2,7 +2,10 @@
 
 ### Hash Function
 - 임의의 길이를 갖는 데이터를 입력받아 고정된 길이의 해시값을 출력하는 함수 
-- 해시 함수의 간단한 예시: 나눗셈
+- 대표적 해시 함수 : *[Division Method, Digit Folding, Universal Hashing]*
+  - Division Method: 
+  - Digit Folding
+  - Universal Hashing: 
 - 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
 - 눈사태 효과: 입력값의 일부가 변경되면 전혀 다른 값을 출력
 - 해시 충돌(*Hash Collision*): 입력 데이터의 길이가 어떻든 고정된 길이의 데이터를 출력하기 때문에 입력값이 다르더라도 같은 해시값이 발생하는 경우
@@ -40,6 +43,6 @@
 ### 해시 충돌 완화
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTIzMTMxMiwxNTg1ODU4ODY3LC0xMz
-M2MjUwMzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbLTE1OTEyMDE1NzEsMTU4NTg1ODg2NywtMT
+MzNjI1MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3NF19
 -->
