@@ -72,13 +72,13 @@
 - 개방 주소법(*Open Addressing*)
 	- 추가적인 메모리를 사용하는 분리연결법과는 다르게 비어있는 해시테이블의 버킷을 활용하는 방법
 	- 대표적인 방법: *[선형 탐색, 제곱 탐색, 이중 해시]*
-		- 선형 탐색(Linear Probing):
-		- 제곱 탐색(Quadratic Probing):
+		- 선형 탐색(Linear Probing): 충돌이 발생한 버킷의 index로 부터 **고정폭** 만큼 이동하여 차례대로 빈 버킷에 데이터를 저장하는 방식
+		- 제곱 탐색(Quadratic Probing): 저장 순서 폭을 제곱으로 저장하는 방식 예를 들어 처음 충돌이 발생시 1만큼 이동하고 계속 충돌이 발생하면 2^2,  
 		- 이중 해시(Double Hashing):
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNzExMzk2LDczNTYwMjIxMiwxMTgwMT
-kxODY2LC0xNTY2MzY3OTI3LC0xMjc1MzczOTA3LDU1OTA0MTU3
-MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMjM2Mzg2OTA1LDEwOD
-g4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5
-MDIsMTk0ODk0ODQ3NF19
+eyJoaXN0b3J5IjpbLTEzMjc1MzMzOTMsNjMzNzExMzk2LDczNT
+YwMjIxMiwxMTgwMTkxODY2LC0xNTY2MzY3OTI3LC0xMjc1Mzcz
+OTA3LDU1OTA0MTU3MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMj
+M2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1
+MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3NF19
 -->
