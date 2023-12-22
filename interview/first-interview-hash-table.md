@@ -4,6 +4,7 @@
 - 임의의 길이의 값을 ***해시함수(Hash Function)*** 를 사용하여 고정된 크기의 값으로 변환하는 작업
 ### Hash Table
 - Hashing을 사용해서 변환한 값을 index로 삼아 *key*: *value*로 저장하는 자료 구조
+- 변환된 index를 ***버킷*** 또는 ***슬롯*** 이라는 곳에 저장하여 사용
 - 임의 크기의 데이터를 고정 크기 값으로 매핑하는데 사용할 수 있으므로 데이터간 비교에 용이
 - 기본연산: 탐색(Search), 삽입(Insert), 삭제(Delete)
 - 기존자료구조인 이진탐색트리 or 배열에 비해 굉장히 빠른 속도(***key를 통한 value값 추출***)로 탐색, 삽입, 삭제를 할 수 있는 자료구조
@@ -23,6 +24,6 @@
 - 해시 테이블 전체에 해시 값이 균등하게 분포
 - 사용할 키의 모든 정보를 이용하여 해싱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkzODg2NzQsLTEzMzYyNTAzNiwtMT
-QxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
+eyJoaXN0b3J5IjpbLTYwMzA2NzgwNCwtMTMzNjI1MDM2LC0xND
+E3ODg5MDIsMTk0ODk0ODQ3NF19
 -->
