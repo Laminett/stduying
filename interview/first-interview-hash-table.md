@@ -9,7 +9,7 @@
   - Universal Hashing: 다수의 해시함수를 만들어 집합 H에 넣어두고, 무작위로 해시함수를 선택해 해시값을 만드는 방식
 > 조슈아 블로크는 여러 해시 함수 성능을 조사했고 31이란 숫자를 찾아냈다. 실제로 31은 메르센 소수로 수학적으로 나쁘지 않은 선택이라고 한다. 실제로 자바 JDK에 포함된 해시코드 일부에 31이 들어가있다. 
 > ``` java 
-> hashCode = 31 * hashCode + (e == null ? 0: e.hashCode());
+> hashCode = 31 * hashCode + (e == null ? 0: e.hashCode());D
 - 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
 - 눈사태 효과: 입력값의 일부가 변경되면 전혀 다른 값을 출력
 - 해시 충돌(*Hash Collision*): 입력 데이터의 길이가 어떻든 고정된 길이의 데이터를 출력하기 때문에 입력값이 다르더라도 같은 해시값이 발생하는 경우
@@ -52,7 +52,7 @@
 - 분리 연결법(*Separate Chaining*)
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzA5NDA1OSwyMzYzODY5MDUsMTA4OD
-gxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MTc4ODkw
-MiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbMTA3MjQ4MTUwMywxMTE3MDk0MDU5LDIzNj
+M4NjkwNSwxMDg4ODExODI2LDE1ODU4NTg4NjcsLTEzMzYyNTAz
+NiwtMTQxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
 -->
