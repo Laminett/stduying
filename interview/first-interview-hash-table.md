@@ -81,7 +81,7 @@
 	- 테이블 내에 빈 버킷을 찾아 해결하는 방식이기 때문에 모든 원소가 **반드시 자신의 해시값과 일치하는 주소에 저장된다는 보장이 없다**.
 	- *개방 주소법에서 데이터 삭제시 삭제된 공간은 **Dummy Space**로 활용되기 때문에 테이블을 **재정리** 해주는 작업 필요*
 > Python Hash Table
-> 파이썬의 해시테이블은 딕셔너리이다. 파이썬의 해시테이블은 충돌시 개방주소법 방식으로 구현되었다. 파이썬이 분리 연결법을 사용하지 않는 이유로 연결 리스트를 만들기 위해 추가 메모리 할당이 필요하고, 추가 메모리 할당은 느린 작업이기 때문에 택하지 않았다고 한다<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b1e9YW/btrXdNcUvXg/PUA1BePMcO4Z2hPY5lc6k1/img.png">
+> 파이썬의 해시테이블은 딕셔너리이다. 파이썬의 해시테이블은 충돌시 개방주소법 방식으로 구현되었다. 파이썬이 분리 연결법을 사용하지 않는 이유로 연결 리스트를 만들기 위해 추가 메모리 할당이 필요하고, 추가 메모리 할당은 느린 작업이기 때문에 택하지 않았다고 한다<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b1e9YW/btrXdNcUvXg/PUA1BePMcO4Z2hPY5lc6k1/img.png" min-width="70%" height="200px">
 > 
 > 선형탐색 방법이 일반적으로 분리 연결 방식에 비해 성능이 더 좋다 하지만 버킷의 80%가 넘어가면 급격한 성능 저하가 발생한다. 따라서 최근 파이썬, 루비 언어들은 개방 주소방법을 택해 성능을 높이는 대신에 적재율을 낮게 잡아 성능 저하 문제를 해결하였다.
 > > C++: 분리 연결법
@@ -154,11 +154,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxODM2MTYwLC0xMTgwNTQ4MDAsLTQ3MD
-U5OTgxMCw4NDI0MDQ2MjQsMzIzMTQ1ODEyLC03MDU0NjA3OTks
-MjMwNTI5NjYxLDYzMzcxMTM5Niw3MzU2MDIyMTIsMTE4MDE5MT
-g2NiwtMTU2NjM2NzkyNywtMTI3NTM3MzkwNyw1NTkwNDE1NzEs
-MTA3MjQ4MTUwMywxMTE3MDk0MDU5LDIzNjM4NjkwNSwxMDg4OD
-ExODI2LDE1ODU4NTg4NjcsLTEzMzYyNTAzNiwtMTQxNzg4OTAy
-XX0=
+eyJoaXN0b3J5IjpbLTE1NDM5NDE1NjYsLTExODA1NDgwMCwtND
+cwNTk5ODEwLDg0MjQwNDYyNCwzMjMxNDU4MTIsLTcwNTQ2MDc5
+OSwyMzA1Mjk2NjEsNjMzNzExMzk2LDczNTYwMjIxMiwxMTgwMT
+kxODY2LC0xNTY2MzY3OTI3LC0xMjc1MzczOTA3LDU1OTA0MTU3
+MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMjM2Mzg2OTA1LDEwOD
+g4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5
+MDJdfQ==
 -->
