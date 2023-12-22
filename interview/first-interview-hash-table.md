@@ -64,11 +64,11 @@
 	- 분리 연결법은 한 버킷(슬롯)당 들어갈 수 있는 엔트리 수에 제한을 두지 않는다. 해당 버킷에 링크드 리스트(linked list) 혹은 트리(tree)자료 구조를 사용한다.
 	- 기본적인 자료구조와 임의로 정한 간단한 알고리즘만 존재하면 되기 때문에 인기가 많은 방법, 가장 전통적인 방법으로 흔히 해시 테이블이라고 하면 이 방식을 뜻함
 	- 해시 충돌이 일어 나더라도 설정된 자료 구조로 노드가 연결되기 때문에 index가 변하지 않고 데이터 개수의 제약이 없다는 장점이 있다.
-	- 하지만 
+	- 하지만 데이터가 증가하면서 동일한 버킷에 연결된 노드 들이 많이지게 되면 그에 따라 캐시의 효율성이 감소한다.(검색 쏠림 현상) 
 
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Njc5MDk4MSwtMTU2NjM2NzkyNywtMT
+eyJoaXN0b3J5IjpbMTE4MDE5MTg2NiwtMTU2NjM2NzkyNywtMT
 I3NTM3MzkwNyw1NTkwNDE1NzEsMTA3MjQ4MTUwMywxMTE3MDk0
 MDU5LDIzNjM4NjkwNSwxMDg4ODExODI2LDE1ODU4NTg4NjcsLT
 EzMzYyNTAzNiwtMTQxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
