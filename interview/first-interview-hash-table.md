@@ -59,6 +59,7 @@
 
 ### 해시 충돌 완화
 - 분리 연결법(*Separate Chaining*)
+
 	- 구현원리: 1) 키의 해시 값을 계산 -> 2) 해시 값을 이용해 배열의 인덱스를 구함 -> 3) 같은 인덱스가 있으면 링크드 리스트로 연결
 	- 분리 연결법은 한 버킷(슬롯)당 들어갈 수 있는 엔트리 수에 제한을 두지 않는다. 해당 버킷에 링크드 리스트(linked list) 혹은 트리(tree)자료 구조를 사용한다.
 	- 기본적인 자료구조와 임의로 정한 간단한 알고리즘만 존재하면 되기 때문에 인기가 많은 방법, 가장 전통적인 방법으로 흔히 해시 테이블이라고 하면 이 방식을 뜻함
@@ -67,8 +68,8 @@
 
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MTUzNTU5LC0xNTY2MzY3OTI3LC0xMj
-c1MzczOTA3LDU1OTA0MTU3MSwxMDcyNDgxNTAzLDExMTcwOTQw
-NTksMjM2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NTg1ODg2NywtMT
-MzNjI1MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3NF19
+eyJoaXN0b3J5IjpbMTM2Njc5MDk4MSwtMTU2NjM2NzkyNywtMT
+I3NTM3MzkwNyw1NTkwNDE1NzEsMTA3MjQ4MTUwMywxMTE3MDk0
+MDU5LDIzNjM4NjkwNSwxMDg4ODExODI2LDE1ODU4NTg4NjcsLT
+EzMzYyNTAzNiwtMTQxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
 -->
