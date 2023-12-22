@@ -70,8 +70,9 @@
 	> java 8에서는 Self-balancing Binary Search Tree 를 사용하여 연결 방식을 구현
 
 - 개방 주소법(*Open Addressing*)
+	- 비어있는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzY4MDA3OCw3MzU2MDIyMTIsMTE4MD
+eyJoaXN0b3J5IjpbMTg5MDYxMTIzMSw3MzU2MDIyMTIsMTE4MD
 E5MTg2NiwtMTU2NjM2NzkyNywtMTI3NTM3MzkwNyw1NTkwNDE1
 NzEsMTA3MjQ4MTUwMywxMTE3MDk0MDU5LDIzNjM4NjkwNSwxMD
 g4ODExODI2LDE1ODU4NTg4NjcsLTEzMzYyNTAzNiwtMTQxNzg4
