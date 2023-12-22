@@ -82,6 +82,7 @@
 	- *개방 주소법에서 데이터 삭제시 삭제된 공간은 **Dummy Space**로 활용되기 때문에 테이블을 **재정리** 해주는 작업 필요*
 > Python Hash Table
 > 파이썬의 해시테이블은 딕셔너리이다. 파이썬의 해시테이블은 충돌시 개방주소법 방식으로 구현되었다. 파이썬이 분리 연결법을 사용하지 않는 이유로 연결 리스트를 만들기 위해 추가 메모리 할당이 필요하고, 추가 메모리 할당은 느린 작업이기 때문에 택하지 않았다고 한다![https://stackoverflow.com/questions/30683511/linear-probing-vs-chaining](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/b1e9YW/btrXdNcUvXg/PUA1BePMcO4Z2hPY5lc6k1/img.png)
+> 
 > 선형탐색 방법이 일반적으로 분리 연결 방식에 비해 성능이 더 좋다 하지만 버킷의 80%가 넘어가면 급격한 성능 저하가 발생한다. 따라서 최근 파이썬, 루비 언어들은 개방 주소방법을 택해 성능을 높이는 대신에 적재율을 낮게 잡아 성능 저하 문제를 해결하였다.
 > > C++: 분리 연결법
 > 자바: 분리 연결법
@@ -153,11 +154,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA1NDgwMCwtNDcwNTk5ODEwLDg0Mj
-QwNDYyNCwzMjMxNDU4MTIsLTcwNTQ2MDc5OSwyMzA1Mjk2NjEs
-NjMzNzExMzk2LDczNTYwMjIxMiwxMTgwMTkxODY2LC0xNTY2Mz
-Y3OTI3LC0xMjc1MzczOTA3LDU1OTA0MTU3MSwxMDcyNDgxNTAz
-LDExMTcwOTQwNTksMjM2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NT
-g1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3
-NF19
+eyJoaXN0b3J5IjpbLTExNTc0NzUyNjgsLTExODA1NDgwMCwtND
+cwNTk5ODEwLDg0MjQwNDYyNCwzMjMxNDU4MTIsLTcwNTQ2MDc5
+OSwyMzA1Mjk2NjEsNjMzNzExMzk2LDczNTYwMjIxMiwxMTgwMT
+kxODY2LC0xNTY2MzY3OTI3LC0xMjc1MzczOTA3LDU1OTA0MTU3
+MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMjM2Mzg2OTA1LDEwOD
+g4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5
+MDJdfQ==
 -->
