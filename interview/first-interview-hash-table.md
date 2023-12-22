@@ -89,11 +89,52 @@
 > 루비: 개방 주소법
 > 파이썬: 개방 주소법
 
-## JAVA ㅇ
+## JAVA 의 HashMap vs HashTable
+```java
+/**  
+ * Maps the specified {@code key} to the specified  
+ * {@code value} in this hashtable. Neither the key nor the  
+ * value can be {@code null}. <p>  
+ * * The value can be retrieved by calling the {@code get} method  
+ * with a key that is equal to the original key. * * @param key the hashtable key  
+ * @param value the value  
+ * @return the previous value of the specified key in this hashtable,  
+ *             or {@code null} if it did not have one  
+ * @exception NullPointerException  if the key or value is  
+ *               {@code null}  
+ * @see Object#equals(Object)  
+ * @see #get(Object)  
+ */public synchronized V put(K key, V value) {  
+    // Make sure the value is not null  
+  if (value == null) {  
+        throw new NullPointerException();  
+    }  
+  
+    // Makes sure the key is not already in the hashtable.  
+  Entry<?,?> tab[] = table;  
+    int hash = key.hashCode();  
+    int index = (hash & 0x7FFFFFFF) % tab.length;  
+    @SuppressWarnings("unchecked")  
+    Entry<K,V> entry = (Entry<K,V>)tab[index];  
+    for(; entry != null ; entry = entry.next) {  
+        if ((entry.hash == hash) && entry.key.equals(key)) {  
+            V old = entry.value;  
+            entry.value = value;  
+            return old;  
+        }  
+    }  
+  
+    addEntry(hash, key, value, index);  
+    return null;  
+}
+```
+```java
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTQ2MDc5OSwyMzA1Mjk2NjEsNjMzNz
-ExMzk2LDczNTYwMjIxMiwxMTgwMTkxODY2LC0xNTY2MzY3OTI3
-LC0xMjc1MzczOTA3LDU1OTA0MTU3MSwxMDcyNDgxNTAzLDExMT
-cwOTQwNTksMjM2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NTg1ODg2
-NywtMTMzNjI1MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3NF19
+eyJoaXN0b3J5IjpbMTA0NDI1MzU2NSwtNzA1NDYwNzk5LDIzMD
+UyOTY2MSw2MzM3MTEzOTYsNzM1NjAyMjEyLDExODAxOTE4NjYs
+LTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNTU5MDQxNTcxLDEwNz
+I0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5MDUsMTA4ODgxMTgy
+NiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MTc4ODkwMiwxOT
+Q4OTQ4NDc0XX0=
 -->
