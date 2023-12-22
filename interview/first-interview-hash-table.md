@@ -5,7 +5,7 @@
 - 대표적 해시 함수 : *[Division Method, Digit Folding, Multiplication Method, Universal Hashing]*
   - Division Method: 나눗셈을 사용하여 입력값을 테이블의 크기로 나누어 계산하는 방식(주소 = 입력값 % 테이블의크기) <span style="color:green">테이블의 크기를 소수로 정하고 2의 제곱수와 먼 값을 사용해야 효과가 좋다고 알려져 있음</span>
   - Digit Folding: 각 key의 문자열을 ASCII 코드로 바꾸고 값을 합한 데이터를 테이블 내의 주소로 사용하는 방식
-  - Multiplication Method: 숫자로 된 key값 k와 0과 1사이의 실수 A, 보통 2의 제곱수인 m을 사용하여 다음과 같은 계산을 하는 방식 `h(k) = (kA`
+  - Multiplication Method: 숫자로 된 key값 k와 0과 1사이의 실수 A, 보통 2의 제곱수인 m을 사용하여 다음과 같은 계산을 하는 방식 `h(k) = (kA mod 1) * m`
   - Universal Hashing: 다수의 해시함수를 만들어 집합 H에 넣어두고, 무작위로 해시함수를 선택해 해시값을 만드는 방식
 - 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
 - 눈사태 효과: 입력값의 일부가 변경되면 전혀 다른 값을 출력
@@ -42,9 +42,10 @@
 - 사용할 키의 모든 정보를 이용하여 해싱
 
 ### 해시 충돌 완화
-
+- 분리 연결법(*Separate Chaining*)
+- 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA0MDA2OTUsMTA4ODgxMTgyNiwxNT
-g1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MTc4ODkwMiwxOTQ4OTQ4
-NDc0XX0=
+eyJoaXN0b3J5IjpbMjM2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NT
+g1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3
+NF19
 -->
