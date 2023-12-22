@@ -8,15 +8,16 @@
 - 해시 충돌(*Hash Collision*): 입력 데이터의 길이가 어떻든 고정된 길이의 데이터를 출력하기 때문에 입력값이 다르더라도 같은 해시값이 발생하는 경우
 ![hash collision](https://miro.medium.com/max/1400/1*i5JV9RiF17ftnGDvuqVFSA.png)
 ### Hash collision
+- 원인: [비둘기집 원리](https://ko.wikipedia.org/wiki/%EB%B9%84%EB%91%98%EA%B8%B0%EC%A7%91_%EC%9B%90%EB%A6%AC)
 - 적재율(*load factor*): 해시 테이블의 크기에 대한 키의 개수의 비율 (키의 개수 `K`, 해시테이블의 크기 `N` => 적재율: `K/N`)
 - 해시 충돌이 1도 없는 해시 함수를 만드는 것은 불가능
-- 따라서 해시 테이블의 충돌은 완
+- 따라서 해시 테이블의 충돌은 완화하는 방법으로 문제를 보완해야 함
 ### Hashing
 - 임의의 길이의 값을 ***해시함수(Hash Function)*** 를 사용하여 고정된 크기의 값으로 변환하는 작업
-### Hash Table
+### Hash Table의 특징
 - Hashing을 사용해서 변환한 값을 index로 삼아 *key*: *value*로 저장하는 자료 구조
 - 변환된 index를 ***버킷*** 또는 ***슬롯*** 이라는 곳에 저장하여 사용
-- 임의 크기의 데이터를 고정 크기 값으로 매핑하는데 사용할 수 있으므로 데이터간 비교에 용이
+- 임의 크기의 데이터를 고정 크기 값으로 변환하기 때문에 데이터간 비교에 용이
 - 기본연산: 탐색(Search), 삽입(Insert), 삭제(Delete)
 - 기존자료구조인 이진탐색트리 or 배열에 비해 굉장히 빠른 속도(***key를 통한 value값 추출***)로 탐색, 삽입, 삭제를 할 수 있는 자료구조
 - key는 ***유니크*** 해야 함
@@ -35,7 +36,10 @@
 - 쉽고 빠른 연산
 - 해시 테이블 전체에 해시 값이 균등하게 분포
 - 사용할 키의 모든 정보를 이용하여 해싱
+
+### 해시 충돌 완화
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDc2OTAyNiwxNTg1ODU4ODY3LC0xMz
+eyJoaXN0b3J5IjpbMTIwMTIzMTMxMiwxNTg1ODU4ODY3LC0xMz
 M2MjUwMzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
 -->
