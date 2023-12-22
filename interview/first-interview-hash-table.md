@@ -142,9 +142,9 @@
     return putVal(hash(key), key, value, false, true);  
 }
 ```
-해시테이블의 put은 해시
+해시테이블의 put은 해시맵의 put과 다르게 synchronized 키워드가 존재한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjEzMzA0LC03MDU0NjA3OTksMjMwNT
+eyJoaXN0b3J5IjpbMzIzMTQ1ODEyLC03MDU0NjA3OTksMjMwNT
 I5NjYxLDYzMzcxMTM5Niw3MzU2MDIyMTIsMTE4MDE5MTg2Niwt
 MTU2NjM2NzkyNywtMTI3NTM3MzkwNyw1NTkwNDE1NzEsMTA3Mj
 Q4MTUwMywxMTE3MDk0MDU5LDIzNjM4NjkwNSwxMDg4ODExODI2
