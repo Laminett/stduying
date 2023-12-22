@@ -143,11 +143,12 @@
 }
 ```
 해시테이블의 put은 해시맵의 put과 다르게 synchronized 키워드가 존재한다. 이는 병령 프로그래밍시 동기화를 지원해준다는 것을 의미하는데.. 이는 해당 함수를 처리하는 시간이 지연됨을 의미한다.
+때문에 병렬처리를 하면서 자원의 동기화를 고려해야 하는 상황이라면 해시테이블을, 병렬처리를 하지 않고 동기화를 고려하지 않는 상황이라면 해시맵을 사용하면 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyNDA0NjI0LDMyMzE0NTgxMiwtNzA1ND
-YwNzk5LDIzMDUyOTY2MSw2MzM3MTEzOTYsNzM1NjAyMjEyLDEx
-ODAxOTE4NjYsLTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNTU5MD
-QxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5MDUs
-MTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MT
-c4ODkwMiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbLTQ3MDU5OTgxMCw4NDI0MDQ2MjQsMzIzMT
+Q1ODEyLC03MDU0NjA3OTksMjMwNTI5NjYxLDYzMzcxMTM5Niw3
+MzU2MDIyMTIsMTE4MDE5MTg2NiwtMTU2NjM2NzkyNywtMTI3NT
+M3MzkwNyw1NTkwNDE1NzEsMTA3MjQ4MTUwMywxMTE3MDk0MDU5
+LDIzNjM4NjkwNSwxMDg4ODExODI2LDE1ODU4NTg4NjcsLTEzMz
+YyNTAzNiwtMTQxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
 -->
