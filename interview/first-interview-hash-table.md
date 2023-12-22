@@ -8,7 +8,7 @@
 - 임의 크기의 데이터를 고정 크기 값으로 매핑하는데 사용할 수 있으므로 데이터간 비교에 용이
 - 기본연산: 탐색(Search), 삽입(Insert), 삭제(Delete)
 - 기존자료구조인 이진탐색트리 or 배열에 비해 굉장히 빠른 속도(***key를 통한 value값 추출***)로 탐색, 삽입, 삭제를 할 수 있는 자료구조
-- key는 유니크해야 함
+- key는 ***유니크*** 해야 함
 - 수정가능(=mutable)
 - 보통 배열로 미리 hash table 사이즈만큼 생성 후에 사용함
 - ex) {python: Dictionary, Ruby: Hash, Java: Map}
@@ -17,6 +17,7 @@
 ### 시간 복잡도
 - 해시 테이블은 key-value가 1:1로 매핑되어 있기 때문에 검색, 삽입, 삭제 과정에서 모두 평균적으로 O(1)의 시간 복잡도를 갖는다.
 - 공간복잡도는 O(N) [N=키의 개수]
+- 하지만..최악의 경우 
 
 ### 성능 좋은 해시 함수의 특징
 - 해시 함수 값 충돌 최소화
@@ -24,6 +25,6 @@
 - 해시 테이블 전체에 해시 값이 균등하게 분포
 - 사용할 키의 모든 정보를 이용하여 해싱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzA2NzgwNCwtMTMzNjI1MDM2LC0xND
+eyJoaXN0b3J5IjpbMTg1NDUwMDk2MywtMTMzNjI1MDM2LC0xND
 E3ODg5MDIsMTk0ODk0ODQ3NF19
 -->
