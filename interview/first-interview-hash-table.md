@@ -1,5 +1,7 @@
 ## Hash Table
 
+### Hash Function
+- 해시 함수의 간단한 예시 
 ### Hashing
 - 임의의 길이의 값을 ***해시함수(Hash Function)*** 를 사용하여 고정된 크기의 값으로 변환하는 작업
 ### Hash Table
@@ -17,7 +19,7 @@
 ### 시간 복잡도
 - 해시 테이블은 key-value가 1:1로 매핑되어 있기 때문에 검색, 삽입, 삭제 과정에서 모두 평균적으로 O(1)의 시간 복잡도를 갖는다.
 - 공간복잡도는 O(N) [N=키의 개수]
-- 하지만..최악의 경우 
+- 하지만..최악의 경우(모든 버킷에서 충돌이 일어날 경우) O(n)이 될 수 있다 
 
 ### 성능 좋은 해시 함수의 특징
 - 해시 함수 값 충돌 최소화
@@ -25,6 +27,6 @@
 - 해시 테이블 전체에 해시 값이 균등하게 분포
 - 사용할 키의 모든 정보를 이용하여 해싱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDUwMDk2MywtMTMzNjI1MDM2LC0xND
-E3ODg5MDIsMTk0ODk0ODQ3NF19
+eyJoaXN0b3J5IjpbMjY1OTg3ODY5LC0xMzM2MjUwMzYsLTE0MT
+c4ODkwMiwxOTQ4OTQ4NDc0XX0=
 -->
