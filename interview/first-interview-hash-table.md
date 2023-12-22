@@ -14,7 +14,8 @@
 ### Hash collision
 - 원인: [비둘기집 원리](https://ko.wikipedia.org/wiki/%EB%B9%84%EB%91%98%EA%B8%B0%EC%A7%91_%EC%9B%90%EB%A6%AC)
 - 적재율(*load factor*): 해시 테이블의 크기에 대한 키의 개수의 비율 (키의 개수 `K`, 해시테이블의 크기 `N` => 적재율: `K/N`)
-	- 
+	- 해시함수가 키들을 잘 분산해 주는지를 말하는 효율성 측정에 사용
+	- 일반적으로 적재율이 증가할 수록 
 - 해시 충돌이 1도 없는 해시 함수를 만드는 것은 불가능
 - 따라서 해시 테이블의 충돌은 완화하는 방법으로 문제를 보완해야 함
 ### Hashing
@@ -46,7 +47,7 @@
 - 분리 연결법(*Separate Chaining*)
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQxMDY3MzAsMjM2Mzg2OTA1LDEwOD
+eyJoaXN0b3J5IjpbLTEwOTkwOTMwOTMsMjM2Mzg2OTA1LDEwOD
 g4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5
 MDIsMTk0ODk0ODQ3NF19
 -->
