@@ -73,12 +73,13 @@
 	- 추가적인 메모리를 사용하는 분리연결법과는 다르게 비어있는 해시테이블의 버킷을 활용하는 방법
 	- 대표적인 방법: *[선형 탐색, 제곱 탐색, 이중 해시]*
 		- 선형 탐색(Linear Probing): 충돌이 발생한 버킷의 index로 부터 **고정폭** 만큼 이동하여 차례대로 빈 버킷에 데이터를 저장하는 방식
-		- 제곱 탐색(Quadratic Probing): 저장 순서 폭을 제곱으로 저장하는 방식 예를 들어 처음 충돌이 발생시 1만큼 이동하고 계속 충돌이 발생하면 2^2,  
-		- 이중 해시(Double Hashing):
+		- 제곱 탐색(Quadratic Probing): 저장 순서 폭을 제곱으로 저장하는 방식 예를 들어 처음 충돌이 발생시 1만큼 이동하고 계속 충돌이 발생하면 2^2,  3^2 칸씩 이동하여 저장하는 방식
+		- 이중 해시(Double Hashing): 해시된 값을 한번 더 해싱하여 해시의 규칙성을 없애버리는 방식, 해시된 값을 한번더 해싱하기 때문에 다른 방법들보다 많은 연산을 함
+	- 추가적인 메모리를 사용하지 않고 해시테이블 내에 데이터 저장및 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc1MzMzOTMsNjMzNzExMzk2LDczNT
-YwMjIxMiwxMTgwMTkxODY2LC0xNTY2MzY3OTI3LC0xMjc1Mzcz
-OTA3LDU1OTA0MTU3MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMj
-M2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1
-MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3NF19
+eyJoaXN0b3J5IjpbLTgyNDU2ODIxNCw2MzM3MTEzOTYsNzM1Nj
+AyMjEyLDExODAxOTE4NjYsLTE1NjYzNjc5MjcsLTEyNzUzNzM5
+MDcsNTU5MDQxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMz
+YzODY5MDUsMTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUw
+MzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
 -->
