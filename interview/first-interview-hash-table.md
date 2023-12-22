@@ -16,6 +16,8 @@
 - 적재율(*load factor*): 해시 테이블의 크기에 대한 키의 개수의 비율 (키의 개수 `K`, 해시테이블의 크기 `N` => 적재율: `K/N`)
 	- 해시함수가 키들을 잘 분산해 주는지를 말하는 효율성 측정에 사용
 	- 일반적으로 적재율이 증가할 수록 해시 테이블의 성능은 감소
+		- java10의 경우 0.75를 넘을 경우 동적 배열처럼 해시 테이블의 공간을 재할당
+		- python: 0.66, Ruby: 0.5로 
 - 해시 충돌이 1도 없는 해시 함수를 만드는 것은 불가능
 - 따라서 해시 테이블의 충돌은 완화하는 방법으로 문제를 보완해야 함
 ### Hashing
@@ -47,7 +49,7 @@
 - 분리 연결법(*Separate Chaining*)
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIxNDU3ODUsMjM2Mzg2OTA1LDEwOD
+eyJoaXN0b3J5IjpbLTEwNDc2NDIzMzMsMjM2Mzg2OTA1LDEwOD
 g4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5
 MDIsMTk0ODk0ODQ3NF19
 -->
