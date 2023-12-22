@@ -90,7 +90,8 @@
 > 파이썬: 개방 주소법
 
 ## JAVA 의 HashMap vs HashTable
-```java
+- Hash Table Code
+```java 
 /**  
  * Maps the specified {@code key} to the specified  
  * {@code value} in this hashtable. Neither the key nor the  
@@ -128,13 +129,25 @@
     return null;  
 }
 ```
+- HashMap Code
 ```java
+/**  
+ * Associates the specified value with the specified key in this map. * If the map previously contained a mapping for the key, the old * value is replaced. * * @param key key with which the specified value is to be associated  
+ * @param value value to be associated with the specified key  
+ * @return the previous value associated with {@code key}, or  
+ *         {@code null} if there was no mapping for {@code key}.  
+ *         (A {@code null} return can also indicate that the map  
+ *         previously associated {@code null} with {@code key}.)  
+ */public V put(K key, V value) {  
+    return putVal(hash(key), key, value, false, true);  
+}
 ```
+해시테이블의 put은 해시
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDI1MzU2NSwtNzA1NDYwNzk5LDIzMD
-UyOTY2MSw2MzM3MTEzOTYsNzM1NjAyMjEyLDExODAxOTE4NjYs
-LTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNTU5MDQxNTcxLDEwNz
-I0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5MDUsMTA4ODgxMTgy
-NiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLTE0MTc4ODkwMiwxOT
-Q4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbLTQwNjEzMzA0LC03MDU0NjA3OTksMjMwNT
+I5NjYxLDYzMzcxMTM5Niw3MzU2MDIyMTIsMTE4MDE5MTg2Niwt
+MTU2NjM2NzkyNywtMTI3NTM3MzkwNyw1NTkwNDE1NzEsMTA3Mj
+Q4MTUwMywxMTE3MDk0MDU5LDIzNjM4NjkwNSwxMDg4ODExODI2
+LDE1ODU4NTg4NjcsLTEzMzYyNTAzNiwtMTQxNzg4OTAyLDE5ND
+g5NDg0NzRdfQ==
 -->
