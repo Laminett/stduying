@@ -3,7 +3,7 @@
 ### Hash Function
 - 임의의 길이를 갖는 데이터를 입력받아 고정된 길이의 해시값을 출력하는 함수 
 - 대표적 해시 함수 : *[Division Method, Digit Folding, Universal Hashing]*
-  - Division Method: 나눗셈을 사용하여 입력값을 테이블의 크기로 나누어 계산(주소 = 입력값 % 테이블의크기) *테이블의 크기를 소수로 정하고 2의 제곱수와 먼 값을 사용해야 효과가 좋다고 알려져 있음*
+  - Division Method: 나눗셈을 사용하여 입력값을 테이블의 크기로 나누어 계산(주소 = 입력값 % 테이블의크기) <u>테이블의 크기를 소수로 정하고 2의 제곱수와 먼 값을 사용해야 효과가 좋다고 알려져 있음</u>
   - Digit Folding:
   - Universal Hashing: 
 - 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
@@ -43,6 +43,7 @@
 ### 해시 충돌 완화
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMz
-M2MjUwMzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbMTE4NDM3NjM5MSwxMDg4ODExODI2LDE1OD
+U4NTg4NjcsLTEzMzYyNTAzNiwtMTQxNzg4OTAyLDE5NDg5NDg0
+NzRdfQ==
 -->
