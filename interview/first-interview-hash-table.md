@@ -59,10 +59,12 @@
 
 ### 해시 충돌 완화
 - 분리 연결법(*Separate Chaining*)
+분리 연결법은 한 버킷(슬롯)당 들어갈 수 있는 엔트리 수에 제한을 두지 않는다. 해당 버킷에 링크드 리스트(linked list) 혹은 트리(tree)자료 구조를 사용한다.
+
 - 개방 주소법(*Open Addressing*)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNT
-U5MDQxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5
-MDUsMTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUwMzYsLT
-E0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbMTk5MjQ0OTUzNiwtMTU2NjM2NzkyNywtMT
+I3NTM3MzkwNyw1NTkwNDE1NzEsMTA3MjQ4MTUwMywxMTE3MDk0
+MDU5LDIzNjM4NjkwNSwxMDg4ODExODI2LDE1ODU4NTg4NjcsLT
+EzMzYyNTAzNiwtMTQxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
 -->
