@@ -80,10 +80,12 @@
 	- 추가적인 메모리를 사용하지 않기 때문에 해시 함수의 전체 버킷의 개수 이상을 저장할 수 없음(*데이터가 늘어나면 그에 해당하는 저장소가 필요함*)
 	- 테이블 내에 빈 버킷을 찾아 해결하는 방식이기 때문에 모든 원소가 **반드시 자신의 해시값과 일치하는 주소에 저장된다는 보장이 없다**.
 	- *개방 주소법에서 데이터 삭제시 삭제된 공간은 **Dummy Space**로 활용되기 때문에 테이블을 **재정리** 해주는 작업 필요*
+> Python Hash Table
+> 파이썬의 해시테이블은 딕셔너리이다. 파이썬의 해시테이블은 충돌시 개방주소법 방식으로 구현되었다. 파이썬이 분리 연결법을 사
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTU2MTAyMSw2MzM3MTEzOTYsNzM1Nj
-AyMjEyLDExODAxOTE4NjYsLTE1NjYzNjc5MjcsLTEyNzUzNzM5
-MDcsNTU5MDQxNTcxLDEwNzI0ODE1MDMsMTExNzA5NDA1OSwyMz
-YzODY5MDUsMTA4ODgxMTgyNiwxNTg1ODU4ODY3LC0xMzM2MjUw
-MzYsLTE0MTc4ODkwMiwxOTQ4OTQ4NDc0XX0=
+eyJoaXN0b3J5IjpbLTEyODIyMzM1MjgsNjMzNzExMzk2LDczNT
+YwMjIxMiwxMTgwMTkxODY2LC0xNTY2MzY3OTI3LC0xMjc1Mzcz
+OTA3LDU1OTA0MTU3MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMj
+M2Mzg2OTA1LDEwODg4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1
+MDM2LC0xNDE3ODg5MDIsMTk0ODk0ODQ3NF19
 -->
