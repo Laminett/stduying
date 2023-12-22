@@ -5,7 +5,8 @@
 - 해시 함수의 간단한 예시: 나눗셈
 - 해시 함수를 통해 입력된 데이터는 완전히 새로운 모습의 데이터로 변경되기 때문에 암호화 영역에서 주요하게 사용됨(ex: SHA)
 - 눈사태 효과: 입력값의 일부가 변경되면 전혀 다른 값을 출력
-- 해시 충돌: 입력 데이터의 길이가 어떻든 고정된 길이의 데이터를 출력하기 때문에 입력값이 다르더라도 같은 해시값이 발생하는 경우
+- 해시 충돌: 입력 데이터의 길이가 어떻든 고정된 길이의 데이터를 출력하기 때문에 입력값이 다르더라도 같은 해시값이 발생하는 경우
+![hash collision](https://miro.medium.com/max/1400/1*i5JV9RiF17ftnGDvuqVFSA.png)
 ### Hashing
 - 임의의 길이의 값을 ***해시함수(Hash Function)*** 를 사용하여 고정된 크기의 값으로 변환하는 작업
 ### Hash Table
@@ -31,6 +32,6 @@
 - 해시 테이블 전체에 해시 값이 균등하게 분포
 - 사용할 키의 모든 정보를 이용하여 해싱
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA4MTc2ODQsLTEzMzYyNTAzNiwtMT
-QxNzg4OTAyLDE5NDg5NDg0NzRdfQ==
+eyJoaXN0b3J5IjpbMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xND
+E3ODg5MDIsMTk0ODk0ODQ3NF19
 -->
