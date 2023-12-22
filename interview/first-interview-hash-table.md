@@ -70,11 +70,12 @@
 	> java 8에서는 Self-balancing Binary Search Tree 를 사용하여 연결 방식을 구현
 
 - 개방 주소법(*Open Addressing*)
-	- 비어있는 
+	- 추가적인 메모리를 사용하는 분리연결법과는 다르게 비어있는 해시테이블의 버킷을 활용하는 방법
+	- 대표적인 방법: *[선형 탐색(Linear Probing), 제곱 탐색(Quadratic Prob), 이중 해시]*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDYxMTIzMSw3MzU2MDIyMTIsMTE4MD
-E5MTg2NiwtMTU2NjM2NzkyNywtMTI3NTM3MzkwNyw1NTkwNDE1
-NzEsMTA3MjQ4MTUwMywxMTE3MDk0MDU5LDIzNjM4NjkwNSwxMD
-g4ODExODI2LDE1ODU4NTg4NjcsLTEzMzYyNTAzNiwtMTQxNzg4
-OTAyLDE5NDg5NDg0NzRdfQ==
+eyJoaXN0b3J5IjpbMjIzMzMyMDkyLDczNTYwMjIxMiwxMTgwMT
+kxODY2LC0xNTY2MzY3OTI3LC0xMjc1MzczOTA3LDU1OTA0MTU3
+MSwxMDcyNDgxNTAzLDExMTcwOTQwNTksMjM2Mzg2OTA1LDEwOD
+g4MTE4MjYsMTU4NTg1ODg2NywtMTMzNjI1MDM2LC0xNDE3ODg5
+MDIsMTk0ODk0ODQ3NF19
 -->
