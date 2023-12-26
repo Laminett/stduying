@@ -14,9 +14,9 @@
 - 타입으로 견고하게 다형성으로 유연하게
 - Release의 모든 것
 # 강의
-- 클린코더스 강의
-- 쉬운코드 - 운영체제
-- 널널한 개발자 - 네트워크 기초 이론
-- 유데미 > 개발자 영어
-- 유데미 > Ultimate AWS Certified Developer Associate 2023 NEW DVA-C02 -> 📝 자격증 준비!!
-- 유데미 > [NEW] Master Spring Boot 3 & Spring Framework 6 with Java
+- [클린코더스 강의](https://www.youtube.com/watch?v=60lLSe1phks)
+- [쉬운코드 - 운영체제](https://www.youtube.com/playlist?list=PLcXyemr8ZeoQOtSUjwaer0VMJSMfa-9G-)
+- [널널한 개발자 - 네트워크 기초 이론](https://www.youtube.com/playlist?list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
+- [유데미 > 개발자 영어](https://www.udemy.com/course/devenglish/)
+- [유데미 > Ultimate AWS Certified Developer Associate 2023 NEW DVA-C02](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
+- [유데미 > [NEW] Master Spring Boot 3 & Spring Framework 6 with Java](https://www.udemy.com/course/spring-boot-and-spring-framework-tutorial-for-beginners/)
