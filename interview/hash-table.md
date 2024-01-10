@@ -1,4 +1,24 @@
-## Hash Table
+# Hashing
+- 임의의 길이의 값을 ***해시함수(Hash Function)*** 를 사용하여 고정된 크기의 값으로 변환하는 작업
+
+# Hash Function
+- 임의의 길이를 갖는 데이터를 입력받아 고정된 길이의 해시값을 출력하는 함수
+
+# Hash Table
+- Hashing을 사용해서 변환한 값을 index로 사용하는 key: value 형태의 자료 구조
+- 테이블 내에 key가 저장되는 공간을 버킷, value가 저장되는 곳을 슬롯이라고 한다.
+<p align="center"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkFmxn%2FbtqUeis9pKS%2Fd4q7Kv9v8NT9684mWox6hk%2Fimg.png" min-width="70%" height="300px"></p>
+
+- 임의 크기의 데이터를 고정 크기 값으로 변환하기 때문에 데이터간 비교에 용이
+- 기본연산: 탐색(Search), 삽입(Insert), 삭제(Delete)
+- 이진탐색트리 or 배열에 비해 굉장히 빠른 속도(key를 통한 value값 추출)로 탐색, 삽입, 삭제를 할 수 있는 자료구조
+- key는 유니크 해야 함
+- 수정가능(=mutable)
+- 보통 배열로 미리 hash table 사이즈만큼 생성 후에 사용함  
+ex) {python: Dictionary, Ruby: Hash, Java: Map}
+
+<details>
+<summary> 정리내용 </summary>
 
 ### Hash Function
 - 임의의 길이를 갖는 데이터를 입력받아 고정된 길이의 해시값을 출력하는 함수 
@@ -46,6 +66,7 @@
 - 보통 배열로 미리 hash table 사이즈만큼 생성 후에 사용함
 - ex) {python: Dictionary, Ruby: Hash, Java: Map}
 <p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20200609180838/HashingDataStructure-min.png" min-width="70%" height="300px"></p>
+
 ### 시간 복잡도
 - 해시 테이블은 key-value가 1:1로 매핑되어 있기 때문에 검색, 삽입, 삭제 과정에서 모두 평균적으로 O(1)의 시간 복잡도를 갖는다.
 - 공간복잡도는 O(N) [N=키의 개수]
@@ -150,13 +171,5 @@
  |key와 value에 null 허용|O|X|X|
  |동기화 보장(Thread-safe)|X|O|O|
  |추천 환경|싱글 쓰레드|멀티 쓰레드|멀티 쓰레드
- 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNzIxNzgzLC0xOTQzMDgzNDMsLTIwMD
-IyNzU0ODMsMTc5Njk2NzIzMSwtMTE4MDU0ODAwLC00NzA1OTk4
-MTAsODQyNDA0NjI0LDMyMzE0NTgxMiwtNzA1NDYwNzk5LDIzMD
-UyOTY2MSw2MzM3MTEzOTYsNzM1NjAyMjEyLDExODAxOTE4NjYs
-LTE1NjYzNjc5MjcsLTEyNzUzNzM5MDcsNTU5MDQxNTcxLDEwNz
-I0ODE1MDMsMTExNzA5NDA1OSwyMzYzODY5MDUsMTA4ODgxMTgy
-Nl19
--->
+
+</details>
